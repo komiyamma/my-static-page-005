@@ -8,14 +8,6 @@
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}",
       "preLaunchTask": "vite: dev server"
-    },
-    {
-      "name": "Run React (Vite) in Chrome",
-      "type": "chrome",
-      "request": "launch",
-      "url": "http://localhost:5173",
-      "webRoot": "${workspaceFolder}",
-      "preLaunchTask": "vite: dev server"
     }
   ]
 }
