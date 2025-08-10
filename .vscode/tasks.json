@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "vite: dev server",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "group": "build",
+      "problemMatcher": {
+        "pattern": [
+          {
+            "regexp": "^(?!.)"
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "VITE",
+          "endsPattern": "Local: .*localhost:5173"
+        }
+      }
+    }
+  ]
+}

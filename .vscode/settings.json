@@ -1,0 +1,5 @@
+{
+  "debug.javascript.usePreview": false,
+  "debug.openDebug": "openOnSessionStart",
+  "debug.internalConsoleOptions": "openOnFirstSessionStart"
+}

@@ -1,0 +1,31 @@
+/* Minimal, clean styles */
+:root {
+  --bg: #0b0f17;
+  --card: #121826;
+  --text: #e6edf3;
+  --muted: #9aa5b1;
+  --accent: #61dafb;
+  --btn: #1f6feb;
+  --btn-hover: #2b75f0;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  background: radial-gradient(1200px 800px at 20% -10%, #1a2030 0%, var(--bg) 45%, var(--bg) 100%);
+  color: var(--text);
+}
+.container { max-width: 920px; margin: 0 auto; padding: 1.5rem; }
+header h1 { margin: 0.2rem 0 0.8rem; font-size: 1.8rem; }
+
+main { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card { background: var(--card); border: 1px solid #232b3a; border-radius: 12px; padding: 1rem; box-shadow: 0 6px 24px rgba(0,0,0,0.3); }
+.card h2 { margin-top: 0; }
+.muted { color: var(--muted); }
+
+.btn { background: var(--btn); color: white; border: 0; border-radius: 10px; padding: 0.6rem 1rem; cursor: pointer; font-weight: 600; }
+.btn:hover { background: var(--btn-hover); }
+
+/* Layout fix for Vite root */
+#root { display: block; }
