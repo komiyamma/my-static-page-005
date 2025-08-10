@@ -1,0 +1,1 @@
+This repo switched to Vercel Git Integration (Import Project) flow. GitHub Actions workflow removed to avoid double deploys.
