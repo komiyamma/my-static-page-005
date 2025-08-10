@@ -8,15 +8,13 @@
       "isBackground": true,
       "group": "build",
       "problemMatcher": {
-        "pattern": [
-          {
-            "regexp": "^(?!.)"
-          }
-        ],
+        "owner": "vite",
+        "fileLocation": "absolute",
+        "pattern": { "regexp": "^(?!.)" },
         "background": {
           "activeOnStart": true,
           "beginsPattern": "VITE",
-          "endsPattern": "Local: .*localhost:5173"
+          "endsPattern": "Local: .*localhost:5173/?"
         }
       }
     }
