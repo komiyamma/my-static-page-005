@@ -1,5 +1,10 @@
 # React 19 (Vite) スターター
 
+[![CI - Test](https://github.com/komiyamma/my-static-page-005/actions/workflows/ci-test.yml/badge.svg?branch=main)](https://github.com/komiyamma/my-static-page-005/actions/workflows/ci-test.yml)
+[![Release](https://img.shields.io/github/v/release/komiyamma/my-static-page-005)](https://github.com/komiyamma/my-static-page-005/releases/latest)
+
+現在のバージョン: <!--VERSION_START-->v0.0.0<!--VERSION_END-->
+
 Node.js 22 以上前提。Vite + React 19 で .jsx を使い、最新の use* フックで構成した最小スターターです。
 
 ## 構成
